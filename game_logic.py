@@ -36,6 +36,7 @@ def nachbar_left(players, player):
 
 
 def play_turn(players, current_player_index, trump_suit):
+    
     # Get the current player and their neighbors
     current_player = players[current_player_index]
     right_neighbor = nachbar_recht(current_player)
